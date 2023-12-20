@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PG_Gateway_API", "PG_Gateway_API\PG_Gateway_API.csproj", "{7587FAE2-8982-4B58-96A1-AE4C5F694A00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api_A", "Api_A\Api_A.csproj", "{68A5DE92-EB97-4492-B0A1-B6BCF1ECB435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api_B", "Api_B\Api_B.csproj", "{042AF491-3ED5-42A7-A8D4-4FF040321E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7587FAE2-8982-4B58-96A1-AE4C5F694A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7587FAE2-8982-4B58-96A1-AE4C5F694A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7587FAE2-8982-4B58-96A1-AE4C5F694A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7587FAE2-8982-4B58-96A1-AE4C5F694A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A5DE92-EB97-4492-B0A1-B6BCF1ECB435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A5DE92-EB97-4492-B0A1-B6BCF1ECB435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A5DE92-EB97-4492-B0A1-B6BCF1ECB435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A5DE92-EB97-4492-B0A1-B6BCF1ECB435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042AF491-3ED5-42A7-A8D4-4FF040321E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042AF491-3ED5-42A7-A8D4-4FF040321E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042AF491-3ED5-42A7-A8D4-4FF040321E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042AF491-3ED5-42A7-A8D4-4FF040321E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67911CF9-FC04-44B4-96D2-9E7A888980CD}
+	EndGlobalSection
+EndGlobal

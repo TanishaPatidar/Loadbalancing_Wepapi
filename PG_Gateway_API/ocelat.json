@@ -1,0 +1,36 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/home/checkapi",
+      "DownstreamScheme": "http",
+
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9001
+        },
+        {
+          "Host": "localhost",
+          "Port": 9002
+        }
+      ],
+
+      "UpstreamPathTemplate": "/gateway/api/home/checkapi",
+
+
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration",
+    "BaseUrl": "http://localhost:9000"
+  }
+}
+
+
+
